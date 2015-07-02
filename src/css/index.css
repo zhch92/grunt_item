@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  height: 0;
+  clear: both;
+  display: block;
+  content: '';
+}
+.header {
+  width: 100%;
+  background: #eee;
+}
+.header .head {
+  width: 1024px;
+  margin: 0 auto;
+  background: #fff;
+}
+.header .head .logo {
+  float: left;
+}
+.header .head ul {
+  float: right;
+}
+.header .head ul li {
+  float: left;
+  margin: 0px 30px;
+}
+.footer {
+  width: 100%;
+  background: #eee;
+}
+.footer .foot {
+  width: 1024px;
+  margin: 0 auto;
+}
+.footer .foot p {
+  text-align: center;
+  background: green;
+}
